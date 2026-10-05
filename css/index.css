@@ -1,0 +1,40 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    background-color: rgb(48, 97, 48);
+
+}
+
+.battle {
+    background-image: url(../images/Vibrant_Forest.png);
+    background-color: rgb(245, 236, 223);
+    border: 10px solid rgb(245, 236, 223);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    height: 680px;
+    width: 1250px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.attack {
+    border: 3px dashed rgb(126, 188, 211);
+    border-radius: 10px;
+    height: 60px;
+    width: 180px;
+    margin-top: 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(41, 116, 145);
+}
+
+.attack p {
+    font-family: 'Franklin Gothic Medium';
+    letter-spacing: 3px;
+    color: rgb(126, 188, 211);
+}
