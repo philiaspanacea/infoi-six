@@ -20,17 +20,31 @@ body {
     margin-top: 80px;
 }
 
+.hitbox {
+    height: 345px;
+    width: 435px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .attack {
     border: 3px dashed rgb(126, 188, 211);
     border-radius: 10px;
     height: 60px;
     width: 180px;
-    margin-top: 20px;
+    margin-top: 70px;
+    margin-bottom: -90px;
+    padding: 10px;
     font-size: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(41, 116, 145);
+}
+
+.attack:hover {
+    background-color: rgb(38, 94, 116);
 }
 
 .attack p {
