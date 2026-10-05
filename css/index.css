@@ -4,7 +4,6 @@
 
 body {
     background-color: rgb(48, 97, 48);
-
 }
 
 .battle {
@@ -20,6 +19,7 @@ body {
     align-items: center;
     margin-top: 80px;
 }
+
 .attack {
     border: 3px dashed rgb(126, 188, 211);
     border-radius: 10px;
