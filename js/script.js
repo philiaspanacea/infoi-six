@@ -3,7 +3,7 @@ const hitbox = document.getElementsByClassName (".hitbox");
 const snorlax = document.getElementsByClassName (".pokemon");
 const attack = document.querySelector(".attack");
 
-function hitMiss (){
+function hitMiss(){
     let hit = Math.floor(Math.random() * 3);
     let miss = Math.floor(Math.random() * 2);
 
@@ -16,9 +16,14 @@ function hitMiss (){
     }
 }
 
+// // how to make sure currentHp is always less than the previous?
+// function dmgCalc(){
+ 
+// }
+
 function startAttack(){
-    let startHp = 100;
-    let dmg = Math.floor(Math.random() * 101);
+    let startHp = 10;
+    let dmg = Math.floor(Math.random() * 11);
     let currentHp = Number(startHp) - Number(dmg);
 
     if (dmg > 0){
@@ -27,7 +32,7 @@ function startAttack(){
         document.querySelector(".hpOutput").innerHTML = (currentHp);
     }
    
-    if (dmg === 100 || currentHp == 0){
+    if (dmg === 10 || currentHp == 0){
         console.log ("Defeated!");
         document.querySelector(".dmgOutput").innerHTML = "Defeated!";
         return;
