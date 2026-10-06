@@ -52,3 +52,50 @@ body {
     letter-spacing: 3px;
     color: rgb(126, 188, 211);
 }
+
+.output {
+    display: flex;
+    width: 1000px;
+    height: 60px;
+}
+
+.dmgBox {
+    border: 3px solid rgb(245, 236, 223);
+    border-radius: 10px;
+    height: 60px;
+    width: 400px;
+    margin-top: 27px;
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Regular';
+    letter-spacing: 3px;
+    color: rgb(245, 236, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(173, 199, 125);
+}
+
+.hpBox {
+    border: 3px solid rgb(245, 236, 223);
+    border-radius: 10px;
+    height: 60px;
+    width: 400px;
+    margin-top: 27px;
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Regular';
+    letter-spacing: 3px;
+    color: rgb(245, 236, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(173, 199, 125);
+}
+
+/* .effect {
+    background-color: tomato;
+    height: 40px;
+    width: 40px;
+    transition: 0.5s;
+} */
